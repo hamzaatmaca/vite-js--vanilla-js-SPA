@@ -14,7 +14,7 @@ class Login {
 
         var decoded = jwt_decode(data.token);
 
-        if (decoded.email === "a@a.com") {
+        if (decoded.email === "***********") {
           localStorage.setItem("token", data.token);
           window.location.pathname = "dashboard";
         }
