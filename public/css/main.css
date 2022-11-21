@@ -1,0 +1,11 @@
+@charset "utf-8";
+@import "login.css";
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.layout_template {
+  min-height: 100vh;
+}
