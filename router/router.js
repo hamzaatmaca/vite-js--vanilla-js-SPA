@@ -11,7 +11,7 @@ const router = () => {
     localStorage.getItem("token") !== undefined
   ) {
     const decoded = jwt_decode(localStorage.getItem("token"));
-    if (decoded.email == "a@a.com") {
+    if (decoded.email == "************") {
       switch (url) {
         case "/dashboard":
           dynamicRoute(dashboardPage.render());
